@@ -61,3 +61,41 @@ h2 {
   padding-bottom: 1em;
   font-size: 3em;
 }
+
+main {
+  margin: 0;
+  background-color: #e29578
+}
+
+
+.cards-section {
+  display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-column-gap: 1em;
+   grid-row-gap: 1em;
+  justify-content: center;
+}
+
+.card {
+  border: 2px solid red;
+
+}
+
+span {
+}
+
+
+.image {
+}
+
+/* .icon-container {
+  position: relative;
+  display: inline-block;
+} */
+
+
+.icon-image {
+  position: absolute;
+  background: white;
+  /* top:0; left:0; */
+}
