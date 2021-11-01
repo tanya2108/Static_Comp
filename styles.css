@@ -1,0 +1,101 @@
+* {
+  /* border: 2px solid red; */
+
+}
+
+body {
+  font-family: "Open Sans";
+  margin: 0;
+}
+
+nav {
+  background-color: #006d77;
+  display:flex;
+  justify-content: space-between;
+}
+
+aside {
+  border: 2px solid purple;
+}
+
+.left-nav {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items:flex-end;
+  color: #ffddd2;
+}
+
+.share-divider {
+  border: 2px solid red;
+  display: flex;
+  align-items: center:
+  color: #edf6f9;
+}
+
+.right-nav {
+  /* flex-direction: column; */
+  /* align-content: space-between; */
+}
+
+.share-icon {
+  padding: 1em 0em 1em 3em;
+}
+
+.share-word {
+  padding-left: 0em;
+}
+
+h1 {
+  font-size: 3em;
+  color: #edf6f9;
+}
+
+h5 {
+  margin-left: 1em;
+  color: #83c5be;
+}
+
+h2 {
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 3em;
+}
+
+main {
+  margin: 0;
+  background-color: #e29578
+}
+
+
+.cards-section {
+  display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-column-gap: 1em;
+   grid-row-gap: 1em;
+  justify-content: center;
+}
+
+.card {
+  border: 2px solid red;
+
+}
+
+span {
+}
+
+
+.image {
+}
+
+/* .icon-container {
+  position: relative;
+  display: inline-block;
+} */
+
+
+.icon-image {
+  position: absolute;
+  background: white;
+  /* top:0; left:0; */
+}
