@@ -1,8 +1,3 @@
-* {
-  /* border: 2px solid red; */
-
-}
-
 body {
   font-family: "Open Sans";
   margin: 0;
@@ -14,27 +9,16 @@ nav {
   justify-content: space-between;
 }
 
-aside {
-  border: 2px solid purple;
-}
-
 .left-nav {
-  /* border: 2px solid red; */
+  align-items: flex-end;
   display: flex;
-  align-items:flex-end;
   color: #ffddd2;
 }
 
 .share-divider {
-  border: 2px solid red;
-  display: flex;
-  align-items: center:
+  align-items: center;
   color: #edf6f9;
-}
-
-.right-nav {
-  /* flex-direction: column; */
-  /* align-content: space-between; */
+  display: flex;
 }
 
 .share-icon {
@@ -57,6 +41,7 @@ h5 {
 
 h2 {
   margin: 0;
+  padding-left: 1.5em;
   padding-top: 1em;
   padding-bottom: 1em;
   font-size: 3em;
@@ -64,38 +49,87 @@ h2 {
 
 main {
   margin: 0;
-  background-color: #e29578
+  background-color: #e29578;
+  overflow: auto;
 }
 
-
 .cards-section {
+  margin: 0;
   display: grid;
-   grid-template-columns: repeat(4, 1fr);
-   grid-column-gap: 1em;
-   grid-row-gap: 1em;
-  justify-content: center;
+  grid-template-columns: repeat(4, 200px);
+  grid-column-gap: 2em;
+  grid-row-gap: 2em;
+  justify-content:space-around;
 }
 
 .card {
-  border: 2px solid red;
-
+  background-color: #edf6f9;
+  margin: 0;
+  width: 320px;
 }
 
-span {
-}
-
-
-.image {
-}
-
-/* .icon-container {
+.photo-area {
   position: relative;
-  display: inline-block;
-} */
-
+}
 
 .icon-image {
   position: absolute;
-  background: white;
-  /* top:0; left:0; */
+  background: #edf6f9;
+}
+
+.view-text {
+  align-items: flex-end;
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+  position: absolute;
+  top:0; right:1em;
+}
+
+h3 {
+  color: #83c5be;
+  font-size: 2.5em;
+}
+
+#viewWord {
+  color: #e29578;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-top: 5px;
+}
+
+#viewNumber {
+  color: #e29578;
+  margin-top: 0;
+}
+
+.text-area {
+  margin-left: 1em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+#date {
+  color: #ffddd2
+}
+
+#name, #date,
+#playlist, #playlistName,
+#playCount {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#attachments {
+  margin-bottom: 0;
+}
+
+#websiteLink {
+  background-color: #ffddd2;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  width: 280px;
+  word-wrap: break-word;
 }
